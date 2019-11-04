@@ -1,0 +1,22 @@
+﻿生成启动时间为 2019/10/14 0:06:42。
+     1>项目“E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_hash\Pro_hash\Pro_hash.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt hash.c tect.c
+         tect.c
+         hash.c
+     1>e:\bit-coming\bit__work\c_woking\revising_数据结构\pro_hash\pro_hash\hash.c(21): warning C4133: “=”: 从“HashNode *”到“bucket_node *”的类型不兼容
+     1>e:\bit-coming\bit__work\c_woking\revising_数据结构\pro_hash\pro_hash\hash.c(35): warning C4133: “=”: 从“bucket_node *”到“HashNode *”的类型不兼容
+     1>e:\bit-coming\bit__work\c_woking\revising_数据结构\pro_hash\pro_hash\hash.c(50): warning C4133: “=”: 从“bucket_node *”到“HashNode *”的类型不兼容
+     1>e:\bit-coming\bit__work\c_woking\revising_数据结构\pro_hash\pro_hash\hash.c(53): warning C4098: “HashRemove”:“void”函数返回值
+     1>e:\bit-coming\bit__work\c_woking\revising_数据结构\pro_hash\pro_hash\hash.c(55): warning C4133: “=”: 从“bucket_node *”到“HashNode *”的类型不兼容
+     1>e:\bit-coming\bit__work\c_woking\revising_数据结构\pro_hash\pro_hash\hash.c(59): warning C4098: “HashRemove”:“void”函数返回值
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_hash\Debug\Pro_hash.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_hash\Debug\Pro_hash.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_hash\Debug\Pro_hash.lib" /MACHINE:X86 Debug\hash.obj
+         Debug\tect.obj
+         Pro_hash.vcxproj -> E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_hash\Debug\Pro_hash.exe
+     1>已完成生成项目“E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_hash\Pro_hash\Pro_hash.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.53
