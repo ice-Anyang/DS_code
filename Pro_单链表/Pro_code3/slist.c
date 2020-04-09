@@ -24,8 +24,7 @@ void SListPushBack(SList *plist, DataType x)//Î²²å
 {
 	assert(plist != NULL);
 	SListNode* s = _Buynode(x);
-	s->next=plist->first->next;
-	plist->first->next = s;
+	plist->last->next = s;
 	plist->last = s;
 	plist->size++;
 }

@@ -28,7 +28,7 @@ void DCListPushBack(DCList* plist,DataType x);
 void DCListPushFront(DCList* plist, DataType x);
 void DCListShow(DCList* plist);
 
-//void DCListPopBack(DCList* plist);
+void DCListPopBack(DCList* plist);
 void DCListPopFront(DCList* plist);
 
 

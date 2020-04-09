@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
 	DataType item;
 	int pos, index;
-	bool flag;
+	bool flag=true;
 	int select = 1;
 	while (select)
 	{
