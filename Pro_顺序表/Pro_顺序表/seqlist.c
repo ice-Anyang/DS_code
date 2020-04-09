@@ -175,7 +175,7 @@ size_t SeqListLength(SeqList *ps)//求顺序表长度
 	return ps->size;
 }
 
-void SeqListRemoveAll(SeqList* ps, DataType x)//删除指定数据
+void SeqListRemoveAll(SeqList* ps, DataType x)//删除所有数据
 {
 	int i = 0;
 	int j = 0;
@@ -230,4 +230,4 @@ void SeqListDestroy(SeqList *ps)
 	free(ps->base);
 	ps->base = NULL;
 	ps->capacity = ps->size = 0;
-}S
+}
