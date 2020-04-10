@@ -34,7 +34,4 @@ void DCListPopFront(DCList* plist);
 
 
 
-
-
-
 #endif /*_DCLIST_H_*/

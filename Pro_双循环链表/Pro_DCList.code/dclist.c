@@ -28,7 +28,7 @@ void DCListPushBack(DCList* plist,DataType x)
 	s->prev = plist->last;
 	plist->last = s;
 	plist->last->next = plist->first;
-	plist->last->prev = plist->last;
+	plist->first->prev = plist->last;
 	plist->size++;
 }
 
