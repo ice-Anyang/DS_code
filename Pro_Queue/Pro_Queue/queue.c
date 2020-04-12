@@ -1,16 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include"queue.h"
 
-static QueueIsFull(Queue* ps)
+static QueueIsFull(Queue* ps)//判断是否满
 {
 	return ps->tail >= ps->capacity;
 }
-static QueueIsEampty(Queue* ps)
+static QueueIsEampty(Queue* ps)//判断是否空
 {
 	return ps->front == ps->tail;
 }
 
-void QueueInit(Queue* ps,size_t sz)
+void QueueInit(Queue* ps,size_t sz)//初始化队列
 {
 	ps->capacity = sz > DEFAULT_QUEUE_SIZE ? sz : DEFAULT_QUEUE_SIZE;
 	ps->base = (DataType *)malloc(sizeof(DataType)*(ps->capacity));
@@ -18,7 +18,7 @@ void QueueInit(Queue* ps,size_t sz)
 	ps->front = ps->tail = 0;
 }
 
-void QueuePush(Queue* ps, DataType x)
+void QueuePush(Queue* ps, DataType x)//入队
 {
 	if (QueueIsFull(ps))
 	{
@@ -29,7 +29,7 @@ void QueuePush(Queue* ps, DataType x)
 	ps->tail++;
 }
 
-void QueueShow(Queue* ps)
+void QueueShow(Queue* ps)//打印队列
 {
 	size_t i = ps->front;
 	for(i = ps->front; i < ps->tail; ++i)
@@ -39,7 +39,7 @@ void QueueShow(Queue* ps)
 	printf("\n");
 }
 
-void QueuePop(Queue* ps)
+void QueuePop(Queue* ps)//出队
 {
 	if (QueueIsEampty(ps))
 	{
@@ -49,7 +49,7 @@ void QueuePop(Queue* ps)
 	ps->front++;
 }
 
-void QueueFront(Queue* ps)
+void QueueFront(Queue* ps)//取队头
 {
 	if (QueueIsEampty(ps))
 	{
