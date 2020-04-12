@@ -12,7 +12,7 @@
 typedef struct stack
 {
 	DataType *base;
-	size_t   capacity;
+	size_t   capacity;//
 	size_t   top;
 }stack;
 

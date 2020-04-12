@@ -1,16 +1,16 @@
 
 #define _CRT_SECURE_NO_WARNINGS 1
 #include"stack.h"
-static bool StackIsFull(stack *pst)
+static bool StackIsFull(stack *pst)//ÅÐ¶ÏÕ»ÊÇ·ñÂú
 {
 	return pst->top >= pst->capacity;
 }
-static bool StackIsEmpty(stack *pst)
+static bool StackIsEmpty(stack *pst)//ÅÐ¶ÏÕ»¿Õ
 {
 	return pst->top == 0;
 }
 
-void StackInit(stack* ps, size_t sz)
+void StackInit(stack* ps, size_t sz)//Õ»µÄ³õÊ¼»¯
 {
 	ps->capacity = sz > DEFAULT_STACK_SIZE ? sz : DEFAULT_STACK_SIZE;
 	ps->base = (DataType*)malloc(sizeof(DataType)*(ps->capacity));
@@ -18,7 +18,7 @@ void StackInit(stack* ps, size_t sz)
 	ps->top = 0;
 }
 
-void StackPush(stack* ps, DataType x)
+void StackPush(stack* ps, DataType x)//Ñ¹Õ»²Ù×÷
 {
 	if (StackIsFull(ps))
 	{
@@ -29,7 +29,7 @@ void StackPush(stack* ps, DataType x)
 	ps->top++;
 }
 
-void StackShow(stack* ps)
+void StackShow(stack* ps)//´òÓ¡Õ»
 {
 	int i = ps->top-1;
 	for (i = ps->top - 1; i >= 0; --i)
@@ -39,7 +39,7 @@ void StackShow(stack* ps)
 	printf("\n");
 }
 
-void StackPop(stack* ps)
+void StackPop(stack* ps)//³öÕ»²Ù×÷
 {
 	if (StackIsEmpty(ps))
 	{
@@ -49,7 +49,7 @@ void StackPop(stack* ps)
 	ps->top--;
 }
 
-DataType StackTop(stack* ps)
+DataType StackTop(stack* ps)//È¡Õ»¶¥
 {
 	if (StackIsEmpty(ps))
 	{
@@ -59,12 +59,12 @@ DataType StackTop(stack* ps)
 	return ps->base[ps->top - 1];
 }
 
-void StackClear(stack* ps)
+void StackClear(stack* ps)//Çå¿ÕÕ»
 {
 	ps->top = 0;
 }
 
-void StackDestroy(stack* ps)
+void StackDestroy(stack* ps)//³·ÏúÕ»
 {
 	free(ps->base);
 	ps->base = NULL;
