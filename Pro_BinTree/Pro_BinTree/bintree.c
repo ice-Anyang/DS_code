@@ -108,7 +108,8 @@ void PosOrder_1(BinTreeNode *p)
 }
 //void LevelOrder(BinTree *pbt)
 //{
-//
+//   LevelOrder_1(LevelOrder_1);
+//	
 //}
 //void LevelOrder_1(BinTreeNode *p)
 //{
