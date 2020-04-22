@@ -28,7 +28,7 @@ BSTNode* BSTreeMin_1(BSTNode* p);
 BSTNode* BSTreeMax(BSTree* ps);
 BSTNode* BSTreeMax_1(BSTNode* p);
 BSTNode* BSTreeFind(BSTree* ps, BSTDataType key);
-BSTNode* BSTreeFind_1(BSTNode* p, BSTDataType key);
+BSTNode* BSTreeFind_1(BSTNode** p, BSTDataType key);
 
 
 

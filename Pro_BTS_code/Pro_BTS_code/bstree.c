@@ -82,12 +82,12 @@ BSTNode* BSTreeFind_1(BSTNode* p, BSTDataType key)
 		return BSTreeFind_1(p->leftChild, key);
 }
 
-BSTNode* BSTreeErase(BSTree* ps, BSTDataType key)
+bool BSTreeErase(BSTree* ps, BSTDataType key)
 {
-	return BSTreeErase(&ps->root, key);
+	return BSTreeErase_1(&ps->root, key);
 }
 
-BSTNode* BSTreeErase_1(BSTNode** p, BSTDataType key)
+bool BSTreeErase_1(BSTNode** p, BSTDataType key)
 {
 	if (*p == NULL)
 		return false;
