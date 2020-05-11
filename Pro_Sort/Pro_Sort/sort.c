@@ -25,7 +25,7 @@ void InsertSort_1(int *arr,int left,int right)
 	int i = 0;
 	for (i = left + 1; i <= right; ++i)
 	{
-		int key = arr[i];
+		int key = arr[i];//
 		int end = i - 1;
 		while (end >= left && key < arr[end])
 		{
@@ -90,7 +90,7 @@ void BinInsertSort(int *arr, int left, int right)
 		{
 			arr[j] = arr[j - 1];
 		}
-		arr[low] = tem;
+		arr[mid] = tem;
 	}
 }
 
@@ -188,7 +188,7 @@ void SelectSort(int *arr, int left, int right)
 }
 
 //堆排序
-static void AdjustDown(int *arr, int n, int start)//形成大堆
+static void AdjustDown(int *arr, int n, int start)//形成大堆堆
 {
 	int i = start;
 	int j = 2 * i + 1;
@@ -216,8 +216,6 @@ void HeapSort(int *arr, int left, int right)
 		AdjustDown(arr, n, cur);
 		cur--;
 	}
-	//PrintArray(ar, left, right);
-	//Sort
 	int end = right;
 	while (end >= left)
 	{

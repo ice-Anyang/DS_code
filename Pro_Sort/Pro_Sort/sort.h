@@ -14,7 +14,7 @@ void TestSort(int *arr,int left,int right);
 
 //插入排序
 void InsertSort_1(int *arr, int left, int right);//直接插入排序
-void InsertSort_2(int *arr, int left, int right);
+void InsertSort_2(int *arr, int left, int right);//
 void InsertSort_3(int *arr, int left, int right);//哨兵插入排序
 void BinInsertSort(int *arr, int left, int right);//二叉查找排序
 void TwoWayInsertSort(int *arr, int left, int right);//两路插入排序

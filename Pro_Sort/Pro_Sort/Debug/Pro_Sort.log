@@ -1,15 +1,17 @@
-﻿生成启动时间为 2019/10/14 23:07:48。
-     1>项目“E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_Sort\Pro_Sort\Pro_Sort.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2020/5/10 10:54:23。
+     1>项目“E:\Ice_bitwork\bit-githup\DS_code\Pro_Sort\Pro_Sort\Pro_Sort.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sort.c
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sort.c tect.c
+         tect.c
          sort.c
-     1>e:\bit-coming\bit__work\c_woking\revising_数据结构\pro_sort\pro_sort\sort.c(304): warning C4013: “memcpy”未定义；假设外部返回 int
+     1>e:\ice_bitwork\bit-githup\ds_code\pro_sort\pro_sort\sort.c(304): warning C4013: “memcpy”未定义；假设外部返回 int
+         正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_Sort\Debug\Pro_Sort.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_Sort\Debug\Pro_Sort.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_Sort\Debug\Pro_Sort.lib" /MACHINE:X86 Debug\sort.obj
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Ice_bitwork\bit-githup\DS_code\Pro_Sort\Debug\Pro_Sort.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Ice_bitwork\bit-githup\DS_code\Pro_Sort\Debug\Pro_Sort.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Ice_bitwork\bit-githup\DS_code\Pro_Sort\Debug\Pro_Sort.lib" /MACHINE:X86 Debug\sort.obj
          Debug\tect.obj
-         Pro_Sort.vcxproj -> E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_Sort\Debug\Pro_Sort.exe
-     1>已完成生成项目“E:\BIT-coming\Bit__Work\C_woking\revising_数据结构\Pro_Sort\Pro_Sort\Pro_Sort.vcxproj”(Build 个目标)的操作。
+         Pro_Sort.vcxproj -> E:\Ice_bitwork\bit-githup\DS_code\Pro_Sort\Debug\Pro_Sort.exe
+     1>已完成生成项目“E:\Ice_bitwork\bit-githup\DS_code\Pro_Sort\Pro_Sort\Pro_Sort.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.21
+已用时间 00:00:00.45
